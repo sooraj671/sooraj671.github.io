@@ -1,0 +1,278 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero-sec{
+    min-height: 100vh;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("banner.png");
+    background-size: cover;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.logo{
+    display: flex;
+    height: 50px;
+}
+
+.menu{
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+}
+
+.menu>li:hover{
+    color: red;
+}
+
+.hero-center-sec{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.uni-name{
+    font-size: 62px;
+}
+.uni-desc{
+    text-align: center;
+    width: 900px;
+    margin: 30px 0px;
+    
+}
+.visit-us{
+    text-transform: capitalize;
+    border: 0.5px solid white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.visit-us:hover{
+    background: red;
+    transition: 1s;
+}
+
+.course-details{
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-details>p{
+    text-align: center;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.course-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-card>div{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff3f3;
+    width: 310px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.course-card>div:hover{
+    box-shadow: 0 0 20px 20px rgba(0,0,0,0.2);
+}
+
+
+.campus-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+.campus-details >p{
+    margin-top: 10px;
+}
+.campus-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.campus-card  > *{
+    display: flex;
+    height: 500px;
+    border-radius: 10px;
+    width: 360px;
+    background-size: contain;
+}
+
+.testimonials-card  > *{
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+    width: 600px;
+    background: #fff3f3;
+}
+.faculty-card{
+    display: flex;
+    justify-content: space-around;
+}
+.faculty-card  > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: left;
+    width: 360px;
+}
+.faculty-card  > div >img{
+    border-radius: 10px;
+}
+
+.faculty-card  > div >h2{
+    margin: 15px 0;
+}
+
+.faculty-card  > div >p{
+    width: 300px;
+
+}
+.campus-card>.card-1{
+    background: url("newyork.png");
+}
+
+.campus-card>.card-2{
+    background: url("london.png");
+}
+.campus-card>.card-3{
+    background: url("washington.png");
+}
+
+.campus-card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 183, 255);
+}
+
+.testimonials-card > div{
+    display: flex;
+    padding: 20px;
+}
+.testimonials-card > .card-1{
+    height: 150px;
+}
+.card-1-l >img{
+    border-radius: 100%;
+    width: 40px;
+}
+
+.card-1-r{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.online-course{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("banner2.jpg");
+    border-radius: 10px;
+    margin: 200px auto;
+    width: 80%;
+    height: 400px;
+    
+    
+}
+
+.online-title{
+    word-spacing: 5px;
+    text-transform: capitalize;
+    width: 700px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.contact-us{
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.contact-us:hover{
+
+    background: red;
+    transition: 1s;
+}
+
+.about-us{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    border-radius: 10px;
+    margin: 100px auto 0px auto;
+    width: 80%;
+    height: 400px;
+    
+    
+}
+
+.about-para{
+    width: 70%;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.card-1-r >div>li{
+    list-style: none;
+}
+
+.review{
+    display: flex;
+    width: 5px;
+    
+}
